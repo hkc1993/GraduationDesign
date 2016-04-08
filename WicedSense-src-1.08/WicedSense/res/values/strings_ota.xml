@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ *
+ *  Copyright (C) 2013-2014 Broadcom Corporation
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ *
+-->
+<!-- This resource file contains string resources for the OTA components -->
+<resources>
+
+    <!-- Product Specific Strings -->
+    <string name="ota_chooser_title">WICED Sense 有更新，请选择更新</string>
+    <string name="ota_dialog_title_available">WICED Sense 可以更新</string>
+    <string name="ota_dialog_title_mandatory">WICED Sense 徐璈更新</string>
+
+    <string name="ota_dialog_title">WICED Sense 更新</string>
+    <string name="ota_confirm_msg">更新设备 WICED Sense到%1$s?</string>
+    <string name="ota_dialog_progress_title">WICED Sense更新进度&#8230;</string>
+    <string name="ota_dialog_progress_msg_connecting">连接设备&#8230;</string>
+    <string name="ota_app_info_title">WICED Sense设备信息</string>
+
+    <!-- Strings not dependent on product name -->
+    <string name="ota_lbl_ok">好的</string>
+    <string name="ota_lbl_cancel">取消</string>
+    <string name="ota_nofirmware_msg">没有存在的更新</string>
+    <string name="ota_dialog_progress_msg_starting">开始更新&#8230;</string>
+    <string name="ota_dialog_progress_msg_discovering">搜索服务&#8230;</string>
+    <string name="ota_dialog_progress_msg_enablenotify">Turning on OTA services&#8230;</string>
+    <string name="ota_dialog_progress_msg_preparing">准备下载软件&#8230;</string>
+    <string name="ota_dialog_progress_msg_send_fw_info">Uploading software info&#8230;</string>
+    <string name="ota_dialog_progress_msg_send_fw">Uploading software&#8230;</string>
+    <string name="ota_dialog_progress_msg_verify_fw">Verifying software&#8230;</string>
+    <string name="ota_dialog_completed">更新完成!</string>
+    <string name="ota_app_id">应用程序编号</string>
+    <string name="ota_major_version">主版本号</string>
+    <string name="ota_minor_version">次版本号</string>
+    <string name="ota_error_fw_open_error">不能识别软件</string>
+    <string name="ota_error_internal">未知错误(error# %1$s)</string>
+    <string name="ota_error_connect">连接错误.</string>
+    <string name="ota_error_discover">Unable to find OTA services.</string>
+    <string name="ota_error_timeout">Timeout occurred while upgrading. (state# %1$s)</string>
+    <string name="ota_error_write_char">Unable to write to the OTA service.</string>
+    <string name="ota_error_write_fw_info">Unable to upload the software info.</string>
+    <string name="ota_error_write_fw">Unable to upload the software.</string>
+    <string name="ota_error_bad_fw_info">The software info is corrupted. (error# %1$s)</string>
+    <string name="ota_error_bad_fw">The software is corrupted. (error# %1$s)</string>
+    <string name="ota_error_fw_validate_error">The software is corrupted or has been tampered with. (error# %1$s)</string>
+    <string name="ota_aborted">Software update cancelled.</string>
+    <string name="ota_device_id">设备</string>
+    <string name="ota_select_device">选择一个设备</string>
+    <string name="ota_unknown_device_name">(Unknown device name)</string>
+    <string name="ota_unknown_value">--</string>
+
+</resources>
