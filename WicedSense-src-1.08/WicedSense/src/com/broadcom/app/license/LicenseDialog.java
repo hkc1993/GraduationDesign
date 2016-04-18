@@ -1,29 +1,5 @@
-/******************************************************************************
- *
- *  Copyright (C) 2013-2014 Broadcom Corporation
- *
- *  Licensed under the Apache License, Version 2.0 (the "License");
- *  you may not use this file except in compliance with the License.
- *  You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- *  Unless required by applicable law or agreed to in writing, software
- *  distributed under the License is distributed on an "AS IS" BASIS,
- *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- *  See the License for the specific language governing permissions and
- *  limitations under the License.
- *
- ******************************************************************************/
 package com.broadcom.app.license;
 
-/**
- * NOTE: replace "R.class" with your R.class declared in your application
- * Also, make sure you include the following resources
- * assets/license.html
- * layout/dialog_license.xml
- * values/strings_license.xml
- */
 import com.broadcom.app.wicedsense.R;
 
 import java.io.BufferedReader;
@@ -42,7 +18,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 /**
- * Dialog that displays the license's terms and conditions
+ * 一进来先显示的对话框
  *
  */
 public class LicenseDialog extends DialogFragment implements OnClickListener {
@@ -61,22 +37,6 @@ public class LicenseDialog extends DialogFragment implements OnClickListener {
         Button btn = (Button) view.findViewById(R.id.btnAccept);
         btn.setOnClickListener(this);
 
-       /* try {
-            StringBuilder sb = new StringBuilder();
-            String str;
-
-            InputStream is = getActivity().getAssets().open("license.html");
-            BufferedReader br = new BufferedReader(new InputStreamReader(is));
-
-            while ((str = br.readLine()) != null) {
-                sb.append(str);
-            }
-            br.close();*/
-
-//            tv.setText(Html.fromHtml(sb.toString()));
-       /* } catch (IOException ex) {
-        }
-*/       
         tv.setText("1、本软件根据博通官网的相关资料进行开发，只是简单的功能演示。\n2、本项目的所有者为西安电子科技大学。\n3、请勿将该软件用于商用，请尊重开发者的劳动成果。");
         getDialog().setTitle(R.string.title_license);
 
